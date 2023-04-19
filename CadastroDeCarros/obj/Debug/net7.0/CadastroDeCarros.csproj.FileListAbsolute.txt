@@ -1,0 +1,15 @@
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\bin\Debug\net7.0\CadastroDeCarros.exe
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\bin\Debug\net7.0\CadastroDeCarros.deps.json
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\bin\Debug\net7.0\CadastroDeCarros.runtimeconfig.json
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\bin\Debug\net7.0\CadastroDeCarros.dll
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\bin\Debug\net7.0\CadastroDeCarros.pdb
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\obj\Debug\net7.0\CadastroDeCarros.csproj.AssemblyReference.cache
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\obj\Debug\net7.0\CadastroDeCarros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\obj\Debug\net7.0\CadastroDeCarros.AssemblyInfoInputs.cache
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\obj\Debug\net7.0\CadastroDeCarros.AssemblyInfo.cs
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\obj\Debug\net7.0\CadastroDeCarros.csproj.CoreCompileInputs.cache
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\obj\Debug\net7.0\CadastroDeCarros.dll
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\obj\Debug\net7.0\refint\CadastroDeCarros.dll
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\obj\Debug\net7.0\CadastroDeCarros.pdb
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\obj\Debug\net7.0\CadastroDeCarros.genruntimeconfig.cache
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana3\M02S03\CadastroDeCarros\obj\Debug\net7.0\ref\CadastroDeCarros.dll
