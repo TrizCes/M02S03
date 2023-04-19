@@ -3,12 +3,12 @@
   private static void Main(string[] args)
   {
 
-    int Calcula(int num1, int num2)
+    int SomaDeNumeros(int num1, int num2)
     {
       return num1 + num2;
     }
 
-    Console.WriteLine(Calcula(3, 5));
+    Console.WriteLine(SomaDeNumeros(3, 5));
   }
 }
 
