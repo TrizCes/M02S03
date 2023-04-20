@@ -1,5 +1,6 @@
 ﻿using CadastroDeCarros;
-internal class Program
+
+internal class NewBaseType
 {
   private static void Main(string[] args)
   {
@@ -62,5 +63,11 @@ internal class Program
       renavam = "50623176978",
       proprietario = proprietario3,
     };
+
+    List<Carro> listaCarros = new List<Carro>();
+
+    listaCarros.Add(carro1);
+    listaCarros.Add(carro2);
+    listaCarros.Add(carro3);
   }
 }

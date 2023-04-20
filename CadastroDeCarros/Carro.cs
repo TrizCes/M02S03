@@ -9,5 +9,8 @@ namespace CadastroDeCarros
     public string ano { get; set; }
     public string renavam { get; set; }
     public Proprietario proprietario { get; set; }
+
+    public Carro() { }
   }
+
 }
