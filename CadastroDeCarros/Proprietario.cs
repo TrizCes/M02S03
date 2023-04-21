@@ -8,9 +8,12 @@ namespace CadastroDeCarros
     public string telefone { get; set; }
     public string endereco { get; set; }
 
-    public void CadastrarProprietario()
+    public Proprietario()
     {
       idDeCadastro = new Random().Next(10000, 99999);
+    }
+    public void CadastrarProprietario()
+    {
       Console.WriteLine($"Cadastro de {nome} realizado com sucesso! ID: {idDeCadastro}");
     }
   }

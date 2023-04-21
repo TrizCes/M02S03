@@ -11,7 +11,6 @@ internal class NewBaseType
       telefone = "(47) 96547-7895",
       endereco = "Rua Bela Vista, nº 821"
     };
-    proprietario1.CadastrarProprietario();
 
     Proprietario proprietario2 = new Proprietario()
     {
@@ -20,7 +19,6 @@ internal class NewBaseType
       telefone = "(47) 96547-7895",
       endereco = "Rua Três Barras, nº 377"
     };
-    proprietario2.CadastrarProprietario();
 
     Proprietario proprietario3 = new Proprietario()
     {
@@ -29,7 +27,6 @@ internal class NewBaseType
       telefone = "(47) 96547-7895",
       endereco = "Rua Professor José Motta, nº 99"
     };
-    proprietario3.CadastrarProprietario();
 
     Carro carro1 = new Carro()
     {
@@ -69,5 +66,56 @@ internal class NewBaseType
     listaCarros.Add(carro1);
     listaCarros.Add(carro2);
     listaCarros.Add(carro3);
+
+    addCarro();
+
+    void addCarro()
+    {
+      string status = "0";
+      Proprietario proprietario = new Proprietario() { };
+      Carro carro = new Carro();
+
+      do
+      {
+        Console.WriteLine("Vamos cadastrar novo veículo?\nPara proseguir digite 'S'.\nPara SAIR digite '?'\nDigite : ");
+        status = Console.ReadLine();
+
+        if (status != "?")
+        {
+          Console.Write("\nQual é o nome do proprietário do veículo?: ");
+          proprietario.nome = Console.ReadLine();
+          Console.Write("Qual é o cpf do proprietário do veículo?: ");
+          proprietario.cpf = Console.ReadLine();
+          Console.Write("Qual é o telefone do proprietário do veículo?: ");
+          proprietario.telefone = Console.ReadLine();
+          Console.Write("Qual é o endereço do proprietário do veículo?: ");
+          proprietario.endereco = Console.ReadLine();
+
+          carro.proprietario = proprietario;
+
+          Console.WriteLine("Vamos aos dados do veículo:");
+          Console.Write("Qual é a MARCA do veículo?: ");
+          carro.marca = Console.ReadLine();
+          Console.Write("Qual é o MODELO do veículo?: ");
+          carro.modelo = Console.ReadLine();
+          Console.Write("Qual é a COR do veículo?: ");
+          carro.cor = Console.ReadLine();
+          Console.Write("Qual é o ANO do veículo?: ");
+          carro.ano = Console.ReadLine();
+          Console.Write("Qual é a PLACA do veículo?: ");
+          carro.placa = Console.ReadLine();
+          Console.Write("Qual é o RENAVAM do veículo?: ");
+          carro.renavam = Console.ReadLine();
+
+          listaCarros.Add(carro);
+          Console.WriteLine($"\n \nVeículo {listaCarros[listaCarros.Count - 1].modelo}, de {listaCarros[listaCarros.Count - 1].proprietario.nome} foi cadastrado com sucesso!\n");
+        }
+
+      } while (status != "?");
+
+      Console.WriteLine("\nAgradecemos por usar nosso \nsistema de cadastro!");
+    }
+
   }
+
 }
