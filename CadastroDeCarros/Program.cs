@@ -116,6 +116,29 @@ internal class NewBaseType
       Console.WriteLine("\nAgradecemos por usar nosso \nsistema de cadastro!");
     }
 
+    ExibeCarro();
+
+    void ExibeCarro()
+    {
+      Console.WriteLine("Veículos cadastrados: ");
+      foreach (var item in listaCarros)
+      {
+        Console.WriteLine($"__________________________________________");
+        Console.WriteLine($"Marca:        | {item.marca}");
+        Console.WriteLine($"Modelo:       | {item.modelo}");
+        Console.WriteLine($"Cor:          | {item.cor}");
+        Console.WriteLine($"Ano:          | {item.ano}");
+        Console.WriteLine($"Placa:        | {item.placa}");
+        Console.WriteLine($"Renavam:      | {item.renavam}");
+        Console.WriteLine($"------------------------------------------");
+        Console.WriteLine($"Proprietário:\n|Nome: {item.proprietario.nome}|\n|Tel:  {item.proprietario.telefone}|\n|CPF:  {item.proprietario.cpf}|\n|End.: {item.proprietario.endereco}|");
+        Console.WriteLine($"__________________________________________");
+      }
+
+    };
+
   }
+
+
 
 }
